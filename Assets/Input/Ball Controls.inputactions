@@ -1,0 +1,98 @@
+{
+    "name": "Ball Controls",
+    "maps": [
+        {
+            "name": "Gameplay Controls",
+            "id": "38e3eedd-c41b-401a-a23b-35b0158a0f0b",
+            "actions": [
+                {
+                    "name": "PlayerMove",
+                    "type": "Value",
+                    "id": "9f83dbbb-1d3e-40cc-bffb-db84d487d47f",
+                    "expectedControlType": "Vector2",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "CameraLook",
+                    "type": "Value",
+                    "id": "713081ab-8d79-4bbd-b1ef-1aedbea2b8b1",
+                    "expectedControlType": "Vector2",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "WASD Keys",
+                    "id": "a9391597-60fe-4926-a52f-3626cdbcb338",
+                    "path": "2DVector",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "PlayerMove",
+                    "isComposite": true,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "up",
+                    "id": "9c27c004-a9c5-453a-bcca-54c63afda76e",
+                    "path": "<Keyboard>/w",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "PlayerMove",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "down",
+                    "id": "4dbd16ed-3c6c-4fb4-a7f8-3039b5596842",
+                    "path": "<Keyboard>/s",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "PlayerMove",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "left",
+                    "id": "543ae9b5-1e95-45ea-bafc-66c2451c5838",
+                    "path": "<Keyboard>/a",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "PlayerMove",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "right",
+                    "id": "947eb759-5bc2-4e74-b36f-d4c7ee19e517",
+                    "path": "<Keyboard>/d",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "PlayerMove",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "",
+                    "id": "5ae19de5-2bba-40d1-bf14-b01385266960",
+                    "path": "<Mouse>/delta",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "CameraLook",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
